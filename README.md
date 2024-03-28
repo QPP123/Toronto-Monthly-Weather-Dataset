@@ -1,8 +1,8 @@
-# Ontario Drinking Water Quality and Enforcement
+# Toronto Monthly Weather Normals Dataset
 
 ## Overview
 
-The datasheet give a overview of critical data related to the management and safety of drinking water in Ontario, Canada. It document the dataset's motivation, composition, collection process, recommended uses. 
+The datasheet summarizes weather data for Toronto over the past three decades. It document the dataset's motivation, composition, collection process, recommended uses. 
 
 To use this folder, click the green "Code" button", then "Download ZIP". Move the downloaded folder to where you want to work on your own computer, and then modify it to suit.
 
@@ -11,13 +11,10 @@ To use this folder, click the green "Code" button", then "Download ZIP". Move th
 
 The repo is structured as:
 
--   `data/raw_data` contains the raw data and the cleaned dataset that was constructed.
--   `model` contains fitted models. 
--   `other` contains relevant literature, details about LLM chat interactions, and sketches.
+-   `other` contains relevant literature, details about LLM.
 -   `paper` contains the files used to generate the paper, including the Quarto document and reference bibliography file, as well as the PDF of the paper. 
--   `scripts` contains the R scripts used to simulate, download and clean data.
 
 
 ## Statement on LLM usage
 
-Aspects of the code were written with the help of the auto-complete tool, Codriver. The abstract and introduction were written with the help of ChatHorse and the entire chat history is available in inputs/llms/usage.txt.
+Certain data was analyzed by Chat GPT 4.0, and touched up by Grammarly in terms of article revisions
